@@ -89,16 +89,22 @@
                         <input type="text" placeholder="Age" name="age" autocomplete="off" required>
                         <br><br>
                         <p>Gender</p>
-                        <input type="text" placeholder="Male/Female" name="gender" autocomplete="off" required>
-                        <br><br>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01" name="gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
                         <p>Address</p>
                         <input type="text" placeholder="Address" name="address" autocomplete="off" required>
                         <br><br>
+                    </div>
+                    <div class="col-sm">
                         <p>Contact</p>
                         <input type="text" placeholder="Contact Number" name="contact" autocomplete="off" required>
                         <br><br>
-                    </div>
-                    <div class="col-sm">
                         <p>E-mail</p>
                         <input type="text" placeholder="E-mail" name="email" autocomplete="off">
                         <br><br>
@@ -109,19 +115,20 @@
                         <input type="text" placeholder="Nationality" name="nationality" autocomplete="off" required>
                         <br><br>
                         <p>Educational Level</p>
-                        <input type="text" placeholder="Educational Level" name="edulevel" autocomplete="off" required>
-                        <br><br>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01" name="edulevel">
+                                <option value="Elementary Graduate">Elementary Graduate</option>
+                                <option value="Highschool Graduate">Highschool Graduate</option>
+                                <option value="College Graduate">College Graduate</option>
+                            </select>
+                        </div>
                         <p>Vehicle Type</p>
                         <input type="text" placeholder="Vehicle Type" name="vehicletype" autocomplete="off" required>
                         <br><br>
-                        <p>Year Hired</p>
-                        <input type="date" placeholder="Year Hired" name="yrhired" autocomplete="off" required>
-                        <br><br>
-                        <p>Employer's Business Name</p>
-                        <input type="text" placeholder="Name" name="empname" autocomplete="off" required>
-                        <br><br>
-                        <p>Employer's Business Address</p>
-                        <input type="text" placeholder="Address" name="empadd" autocomplete="off" required>
+                        <p>Date Hired</p>
+                        <input type="date" placeholder="Date Hired" name="yrhired" autocomplete="off" required>
                         <br><br>
                     </div>
                 </div>
