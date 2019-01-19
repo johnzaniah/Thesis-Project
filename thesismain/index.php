@@ -11,7 +11,7 @@
         <style>
         body {
         font-family: Arial, Helvetica, sans-serif;
-        background-color: black;
+        background-color: #666;
         }
         /* Add padding to containers */
         .container {
@@ -32,7 +32,7 @@
         }
         /* Set a style for the submit button */
         .registerbtn {
-        background-color: #4CAF50;
+        background-color: #666;
         color: white;
         padding: 16px 20px;
         margin: 8px 0;
@@ -45,7 +45,7 @@
         opacity: 1;
         }
         .button {
-        background-color: #4CAF50;
+        background-color: #666;
         color: white;
         padding: 16px 20px;
         margin: 8px 0;
@@ -65,7 +65,7 @@
     </head>
     <body>
         <form action="insert.php" method="GET">
-            <hr>
+            
             <div class="container">
                 <h1>PUV Terminal Registration</h1>
                 <div class="row">
@@ -136,7 +136,7 @@
                 <a href="view.php" class="button">View List</a>
             </div>
         </div>
-        <hr>
+        
     </form>
 </body>
 </html>
