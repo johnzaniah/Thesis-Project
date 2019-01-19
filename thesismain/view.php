@@ -18,13 +18,26 @@
             color:white;
             font-style:Calibri;
             }
+            .button {
+            background-color: #666;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            display: inline-block;
+            opacity: 0.9;
+            }
             </style>
         </head>
         <body>
             <table border="1px" width="100%">
                 <tr>
                     <th>ID:</th>
-                    <th>Licence:</th>
+                    <th>License:</th>
                     <th>Plate Number:</th>
                     <th>First Name:</th>
                     <th>Last Name:</th>
@@ -55,27 +68,28 @@
                 for($i=0; $i < sizeof($dwb); $i++){
                 {
                 print "<tr>";
-                    print "<td>" . $dwb[$i][0] . "</td>";
-                    print "<td>" . $dwb[$i][1] . "</td>";
-                    print "<td>" . $dwb[$i][2] . "</td>";
-                    print "<td>" . $dwb[$i][3] . "</td>";
-                    print "<td>" . $dwb[$i][4] . "</td>";
-                    print "<td>" . $dwb[$i][5] . "</td>";
-                    print "<td>" . $dwb[$i][6] . "</td>";
-                    print "<td>" . $dwb[$i][7] . "</td>";
-                    print "<td>" . $dwb[$i][8] . "</td>";
-                    print "<td>" . $dwb[$i][9] . "</td>";
-                    print "<td>" . $dwb[$i][10] . "</td>";
-                    print "<td>" . $dwb[$i][11] . "</td>";
-                    print "<td>" . $dwb[$i][12] . "</td>";
-                    print "<td>" . $dwb[$i][13] . "</td>";
-                    print "<td>" . $dwb[$i][14] . "</td>";
+                    print "<td align=center>" . $dwb[$i][0] . "</td>";
+                    print "<td align=center>" . $dwb[$i][1] . "</td>";
+                    print "<td align=center>" . $dwb[$i][2] . "</td>";
+                    print "<td align=center>" . $dwb[$i][3] . "</td>";
+                    print "<td align=center>" . $dwb[$i][4] . "</td>";
+                    print "<td align=center>" . $dwb[$i][5] . "</td>";
+                    print "<td align=center>" . $dwb[$i][6] . "</td>";
+                    print "<td align=center>" . $dwb[$i][7] . "</td>";
+                    print "<td align=center>" . $dwb[$i][8] . "</td>";
+                    print "<td align=center>" . $dwb[$i][9] . "</td>";
+                    print "<td align=center>" . $dwb[$i][10] . "</td>";
+                    print "<td align=center>" . $dwb[$i][11] . "</td>";
+                    print "<td align=center>" . $dwb[$i][12] . "</td>";
+                    print "<td align=center>" . $dwb[$i][13] . "</td>";
+                    print "<td align=center>" . $dwb[$i][14] . "</td>";
+
                 print "</tr>" ;
                 }
                 }
                 ?>
             </table>
-            <div style="margin: auto;"><a class="link" href="index.php">Return</a></div>
+            <a class="button" href="index.php">Return</a>
 
         </body>
     </html>
